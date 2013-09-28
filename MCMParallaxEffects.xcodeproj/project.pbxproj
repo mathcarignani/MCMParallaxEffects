@@ -19,6 +19,10 @@
 		C731F2BC17F7336D00360F55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C731F2A417F7336D00360F55 /* UIKit.framework */; };
 		C731F2C417F7336D00360F55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C731F2C217F7336D00360F55 /* InfoPlist.strings */; };
 		C731F2C617F7336D00360F55 /* MCMParallaxEffectsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C731F2C517F7336D00360F55 /* MCMParallaxEffectsTests.m */; };
+		C731F2D317F7338B00360F55 /* MCMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C731F2D117F7338B00360F55 /* MCMMainViewController.m */; };
+		C731F2D417F7338B00360F55 /* MCMMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C731F2D217F7338B00360F55 /* MCMMainViewController.xib */; };
+		C731F2E317F7413900360F55 /* pelota2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C731F2E217F7413900360F55 /* pelota2@2x.png */; };
+		C731F2E517F7437B00360F55 /* estadio2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C731F2E417F7437B00360F55 /* estadio2@2x.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,11 @@
 		C731F2C117F7336D00360F55 /* MCMParallaxEffectsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MCMParallaxEffectsTests-Info.plist"; sourceTree = "<group>"; };
 		C731F2C317F7336D00360F55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C731F2C517F7336D00360F55 /* MCMParallaxEffectsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCMParallaxEffectsTests.m; sourceTree = "<group>"; };
+		C731F2D017F7338B00360F55 /* MCMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMMainViewController.h; sourceTree = "<group>"; };
+		C731F2D117F7338B00360F55 /* MCMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCMMainViewController.m; sourceTree = "<group>"; };
+		C731F2D217F7338B00360F55 /* MCMMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MCMMainViewController.xib; sourceTree = "<group>"; };
+		C731F2E217F7413900360F55 /* pelota2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pelota2@2x.png"; sourceTree = "<group>"; };
+		C731F2E417F7437B00360F55 /* estadio2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "estadio2@2x.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +116,8 @@
 		C731F2A617F7336D00360F55 /* MCMParallaxEffects */ = {
 			isa = PBXGroup;
 			children = (
+				C731F2D517F7339800360F55 /* Resources */,
+				C731F2CF17F7337C00360F55 /* Controllers */,
 				C731F2AF17F7336D00360F55 /* MCMAppDelegate.h */,
 				C731F2B017F7336D00360F55 /* MCMAppDelegate.m */,
 				C731F2B217F7336D00360F55 /* Images.xcassets */,
@@ -142,6 +153,25 @@
 				C731F2C217F7336D00360F55 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C731F2CF17F7337C00360F55 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C731F2D017F7338B00360F55 /* MCMMainViewController.h */,
+				C731F2D117F7338B00360F55 /* MCMMainViewController.m */,
+				C731F2D217F7338B00360F55 /* MCMMainViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C731F2D517F7339800360F55 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C731F2E217F7413900360F55 /* pelota2@2x.png */,
+				C731F2E417F7437B00360F55 /* estadio2@2x.jpg */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +250,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C731F2D417F7338B00360F55 /* MCMMainViewController.xib in Resources */,
+				C731F2E317F7413900360F55 /* pelota2@2x.png in Resources */,
+				C731F2E517F7437B00360F55 /* estadio2@2x.jpg in Resources */,
 				C731F2AB17F7336D00360F55 /* InfoPlist.strings in Resources */,
 				C731F2B317F7336D00360F55 /* Images.xcassets in Resources */,
 			);
@@ -242,6 +275,7 @@
 			files = (
 				C731F2B117F7336D00360F55 /* MCMAppDelegate.m in Sources */,
 				C731F2AD17F7336D00360F55 /* main.m in Sources */,
+				C731F2D317F7338B00360F55 /* MCMMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
